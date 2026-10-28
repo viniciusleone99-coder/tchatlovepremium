@@ -1,14 +1,244 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#080e16">
-<meta name="robots" content="index,follow">
-<meta name="description" content="Tchat Love Premium : un assistant IA pour imaginer des réponses naturelles, personnalisées et adaptées à vos conversations.">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#09090b" name="theme-color"/>
+<meta content="index,follow" name="robots"/>
+<meta content="Tchat Love Premium : un assistant IA pour imaginer des réponses naturelles, personnalisées et adaptées à vos conversations." name="description"/>
 <title>Tchat Love Premium — Trouvez les mots justes avec l'IA</title>
 <style>
-:root{--bg:#080e16;--panel:#101d29;--panel2:#162632;--gold:#e8bf81;--text:#f7f3ed;--muted:#b3c2ca;--line:#ffffff1c;--teal:#8ce3d3}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 65% -10%,#213a41 0,transparent 37%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.78}a{color:inherit}.wrap{width:min(100% - 36px,790px);margin-inline:auto}.brand{padding:24px 0;border-bottom:1px solid var(--line);font:700 20px Georgia,serif;letter-spacing:.04em;text-align:center}.brand span{color:var(--gold)}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:11px}.hero{padding:76px 0 60px;text-align:center}.hero h1{font:400 clamp(38px,6vw,65px)/1.12 Georgia,serif;letter-spacing:-.035em;margin:20px 0}.hero h1 em,h2 em{color:var(--gold);font-style:normal}.lead{font-size:clamp(17px,2.2vw,21px);line-height:1.75;color:#d4e0e4}.reading{padding:8px 0 48px}.reading p{font-size:17px;margin:0 0 23px;color:#d5dfe3}.reading strong{color:white}.reading h2{font:400 clamp(29px,4vw,42px)/1.23 Georgia,serif;letter-spacing:-.025em;margin:65px 0 24px}.quote{padding:26px 30px;border-left:3px solid var(--gold);background:linear-gradient(100deg,#1d2c32,#111d29);border-radius:0 15px 15px 0;margin:32px 0;color:#f2e4cc;font:italic 23px/1.55 Georgia,serif}.cta{display:inline-flex;justify-content:center;align-items:center;gap:9px;max-width:100%;min-height:58px;padding:16px 29px;border-radius:12px;text-decoration:none;color:#18202a;background:linear-gradient(135deg,#ffe0a6,#d5a66c);font-size:16px;font-weight:850;box-shadow:0 12px 40px #b8864026;transition:transform .2s,filter .2s;text-align:center}.cta:hover{transform:translateY(-2px);filter:brightness(1.07)}.cta:focus-visible{outline:3px solid white;outline-offset:4px}.cta-wrap{text-align:center;margin:34px 0 52px}.micro{display:block;font-size:12px;color:#9fb2bb;margin-top:11px}.demo{padding:25px;border:1px solid #e8bf8147;background:linear-gradient(135deg,#162a33,#0e1925);border-radius:20px;margin:36px 0}.demo-label{color:var(--gold);font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:800}.bubble{background:#263b45;border-radius:15px 15px 15px 3px;padding:15px 18px;margin:15px 0 25px;display:inline-block;font-size:16px}.answer{padding:17px 19px;background:#0a1721;border:1px solid #ffffff1b;border-radius:13px;margin:12px 0}.answer b{display:block;color:var(--teal);font-size:12px;margin-bottom:5px}.answer p{margin:0;font-size:15px;color:#e4eff0}.note{font-size:12px;color:#a4b7bf;margin-top:16px}.steps{counter-reset:steps;display:grid;gap:14px;margin:28px 0}.step{display:flex;align-items:flex-start;gap:16px;padding:20px;border:1px solid var(--line);border-radius:14px;background:#12202c}.step:before{counter-increment:steps;content:counter(steps);width:35px;height:35px;flex:0 0 35px;display:grid;place-items:center;border-radius:50%;background:#e8bf81;color:#101820;font-weight:900}.step strong{display:block}.step p{font-size:14px;margin:4px 0 0}.bullets{display:grid;gap:14px;margin:25px 0}.benefit{padding:19px 21px;background:#13222e;border:1px solid var(--line);border-radius:13px}.benefit strong{display:block;color:#fff}.benefit span{color:#bdccd2;font-size:15px}.faq{border-bottom:1px solid var(--line);padding:19px 0}.faq h3{font-size:16px;margin:0 0 8px}.faq p{font-size:15px;margin:0;color:#b9cbd0}.closing{background:linear-gradient(140deg,#20333a,#111c29);border:1px solid #e8bf8166;border-radius:22px;padding:42px 30px;text-align:center;margin:60px 0 70px}.closing h2{margin:13px 0 17px;font:400 clamp(30px,4vw,44px)/1.18 Georgia,serif}.closing p{color:#d0dee2;font-size:16px}.footer{border-top:1px solid var(--line);padding:25px 0 40px;text-align:center;color:#8da2ad;font-size:12px}.status{display:none;margin:18px auto 0;max-width:480px;border:1px solid #d9b57980;padding:13px 15px;border-radius:10px;color:#f0d5a7;font-size:13px}.status.show{display:block}@media(max-width:600px){.hero{padding:47px 0 35px}.reading p{font-size:16px}.reading h2{margin-top:49px}.quote{font-size:20px;padding:20px}.cta{width:100%;font-size:15px}.demo{padding:16px}.closing{padding:30px 18px}.wrap{width:min(100% - 30px,790px)}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cta{transition:none}}
+
+:root {
+  color-scheme: dark;
+  --bg: #09090b;
+  --panel: #1b1115;
+  --panel2: #251218;
+  --red-deep: #83162b;
+  --red: #d71938;
+  --coral: #ff5965;
+  --text: #fff3f3;
+  --muted: #c9b5bb;
+  --line: rgba(255, 107, 124, .20);
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: Inter, system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 65% 470px at 70% -6%, rgba(181,17,52,.20), transparent 77%),
+    linear-gradient(180deg, #0b090c, var(--bg) 56%, #10090d);
+  color: var(--text);
+  font-family: var(--sans);
+  line-height: 1.76;
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--red); color: white; }
+.wrap { width: min(calc(100% - 36px), 790px); margin-inline: auto; }
+.brand {
+  position: relative;
+  padding: 23px 0;
+  border-bottom: 1px solid rgba(255, 90, 110, .22);
+  background: rgba(12, 9, 11, .9);
+  font: 700 20px var(--serif);
+  letter-spacing: .055em;
+  text-align: center;
+}
+.brand::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(170px, 45%);
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--red), transparent);
+}
+.brand span { color: var(--coral); }
+.eyebrow {
+  color: #ff8a97;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.hero {
+  position: relative;
+  padding: 78px 0 69px;
+  text-align: center;
+}
+.hero::after {
+  content: '';
+  display: block;
+  width: 68px;
+  height: 2px;
+  margin: 31px auto 0;
+  background: linear-gradient(90deg, transparent, #ec3852, transparent);
+}
+.hero h1 {
+  font: 400 clamp(38px, 6vw, 65px) / 1.13 var(--serif);
+  letter-spacing: -.035em;
+  margin: 20px 0 23px;
+}
+.hero h1 em, h2 em {
+  color: var(--coral);
+  font-style: normal;
+  text-shadow: 0 5px 35px rgba(216, 20, 57, .14);
+}
+.lead {
+  font-size: clamp(17px, 2.2vw, 21px);
+  line-height: 1.75;
+  color: #e1cdd2;
+  max-width: 710px;
+  margin: 0 auto;
+}
+.hero-detail {
+  margin: 19px auto 0;
+  color: #b9a0a8;
+  font-size: 12px;
+  max-width: 550px;
+}
+.reading { padding: 4px 0 56px; }
+.reading > p {
+  font-size: 17px;
+  margin: 0 0 23px;
+  color: #e2d2d6;
+}
+.reading strong { color: #fff7f6; }
+.reading h2 {
+  font: 400 clamp(29px, 4vw, 42px) / 1.23 var(--serif);
+  letter-spacing: -.024em;
+  margin: 65px 0 24px;
+  color: #fff2f1;
+}
+.quote {
+  padding: 28px 30px;
+  border-left: 3px solid #f13f5c;
+  background: linear-gradient(105deg, rgba(94,21,40,.50), rgba(30,16,23,.92));
+  border-radius: 0 15px 15px 0;
+  margin: 34px 0;
+  color: #ffe0e3;
+  font: italic 23px / 1.55 var(--serif);
+}
+.demo {
+  padding: 26px;
+  border: 1px solid rgba(232,67,92,.42);
+  background: linear-gradient(140deg, #28131c, #120e12 70%);
+  border-radius: 20px;
+  margin: 36px 0 44px;
+  box-shadow: 0 18px 60px rgba(0,0,0,.18), inset 0 1px 0 rgba(255,180,190,.06);
+}
+.demo-label {
+  color: #ff8896;
+  font-size: 11px;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.bubble {
+  display: inline-block;
+  padding: 15px 18px;
+  margin: 15px 0 25px;
+  background: #43202d;
+  border: 1px solid #65303e;
+  border-radius: 15px 15px 15px 3px;
+  color: #fff1f2;
+  font-size: 16px;
+}
+.answer {
+  padding: 17px 19px;
+  margin: 12px 0;
+  background: #150f14;
+  border: 1px solid rgba(255,120,140,.19);
+  border-radius: 13px;
+}
+.answer b {
+  display: block;
+  color: #ff8693;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.answer p { margin: 0; font-size: 15px; color: #f2e0e5; }
+.note { font-size: 12px; color: #bfa7ae; margin-top: 16px; }
+.steps { counter-reset: steps; display: grid; gap: 14px; margin: 28px 0; }
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: linear-gradient(125deg, #201117, #140f12);
+}
+.step::before {
+  counter-increment: steps;
+  content: counter(steps);
+  width: 35px;
+  height: 35px;
+  flex: 0 0 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f74660, #b70d2a);
+  color: white;
+  font-weight: 900;
+  box-shadow: 0 5px 17px rgba(191,0,41,.25);
+}
+.step strong { display: block; }
+.step p { font-size: 14px; margin: 4px 0 0; color: #cdbac0; }
+.bullets { display: grid; gap: 14px; margin: 25px 0; }
+.benefit {
+  padding: 19px 21px;
+  background: linear-gradient(125deg, #22141a, #150f13);
+  border: 1px solid var(--line);
+  border-radius: 13px;
+}
+.benefit strong { display: block; color: #fff5f3; }
+.benefit span { color: #ceb9c0; font-size: 15px; }
+.faq { border-bottom: 1px solid rgba(255,101,119,.20); padding: 19px 0; }
+.faq h3 { font-size: 16px; margin: 0 0 8px; color: #fff3f2; }
+.faq p { font-size: 15px; margin: 0; color: #d1bac2; }
+.closing {
+  background:
+    radial-gradient(ellipse at top center, rgba(183,19,54,.22), transparent 72%),
+    linear-gradient(140deg, #26121a, #110e12);
+  border: 1px solid rgba(232,65,91,.54);
+  border-radius: 22px;
+  padding: 44px 34px;
+  text-align: center;
+  margin: 65px 0 72px;
+  box-shadow: 0 24px 65px rgba(0,0,0,.2);
+}
+.closing h2 {
+  margin: 13px 0 17px;
+  font: 400 clamp(30px, 4vw, 44px) / 1.18 var(--serif);
+}
+.closing p { color: #e0cbd1; font-size: 16px; }
+.micro { display: block; font-size: 12px; color: #b99fa7; margin-top: 12px; }
+.footer {
+  border-top: 1px solid rgba(255, 91, 112, .20);
+  padding: 27px 0 41px;
+  text-align: center;
+  color: #b0969f;
+  font-size: 12px;
+}
+@media (max-width: 600px) {
+  .wrap { width: min(calc(100% - 30px), 790px); }
+  .hero { padding: 53px 0 38px; }
+  .hero h1 { margin-top: 17px; }
+  .reading p { font-size: 16px; }
+  .reading h2 { margin-top: 50px; }
+  .quote { font-size: 20px; padding: 20px; }
+  .demo { padding: 17px; }
+  .step { padding: 17px; }
+  .closing { padding: 34px 21px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
 </style>
 </head>
 <body>
@@ -18,7 +248,7 @@
 <div class="eyebrow">Votre assistant de conversation avec IA</div>
 <h1>Vous avez reçu un message… <em>mais vous ne savez pas quoi répondre ?</em></h1>
 <p class="lead">Et si vous pouviez trouver une réponse naturelle, intéressante et fidèle à votre personnalité, sans passer de longues minutes à chercher les bons mots ?</p>
-<div class="cta-wrap"><a class="cta checkout-link" href="#acces">✨ Je découvre Tchat Love Premium</a><span class="micro">Des suggestions générées par intelligence artificielle, selon votre conversation.</span></div>
+<p class="hero-detail">Des suggestions générées par intelligence artificielle, selon votre conversation.</p>
 </section>
 <article class="reading wrap">
 <p>Vous connaissez peut-être ce moment.</p>
@@ -31,7 +261,7 @@
 <p>Découvrez <strong>Tchat Love Premium</strong> : une expérience pensée pour vous aider à répondre aux messages avec plus de facilité, grâce à un assistant de conversation alimenté par l'intelligence artificielle.</p>
 <p>Vous partagez le message ou un extrait de conversation, vous choisissez votre ton, et l'IA vous propose <strong>trois idées de réponses en français</strong>, adaptées au contexte.</p>
 <p>Vous restez libre de choisir, de modifier ou de ne pas envoyer la suggestion. <strong>C'est toujours votre conversation.</strong></p>
-<div class="demo" aria-label="Exemple de réponses proposées par l'IA">
+<div aria-label="Exemple de réponses proposées par l'IA" class="demo">
 <div class="demo-label">Un aperçu de l'expérience Premium</div>
 <div class="bubble">« Salut, tu fais quoi ce soir ? »</div>
 <div class="answer"><b>✦ Naturel</b><p>« Salut ! Pas grand-chose de prévu pour l'instant, et toi ? »</p></div>
@@ -39,7 +269,7 @@
 <div class="answer"><b>✦ Drôle</b><p>« J'hésite entre sauver le monde et regarder une série. Tu votes pour quoi ? 😄 »</p></div>
 <div class="note">Exemples illustratifs. Les suggestions réelles varient selon le message, le ton choisi et les réponses de l'IA.</div>
 </div>
-<div class="cta-wrap"><a class="cta checkout-link" href="#acces">✨ Je veux des réponses adaptées à mes messages</a></div>
+
 <h2>Ce qui change avec <em>Tchat Love Premium</em></h2>
 <div class="bullets">
 <div class="benefit"><strong>💬 Des réponses pensées pour votre conversation</strong><span>Au lieu de chercher une phrase toute faite, recevez des idées basées sur le message que vous partagez.</span></div>
@@ -66,32 +296,13 @@
 <div class="eyebrow">Passez à l'expérience Premium</div>
 <h2>La prochaine fois que vous hésiterez… <em>vous aurez des idées.</em></h2>
 <p>Découvrez un assistant IA qui vous aide à formuler des réponses naturelles, personnalisées et adaptées à vos échanges.</p>
-<a class="cta checkout-link" href="#acces">✨ Je veux accéder à Tchat Love Premium</a>
+
 <span class="micro">Accès et conditions selon votre offre. Limites d'utilisation applicables.</span>
-<div id="checkout-status" class="status" role="status">Le lien d'accès à l'offre n'est pas encore configuré. Ajoutez votre lien de paiement dans la constante CHECKOUT_URL du fichier HTML.</div>
+
 </div>
 </article>
 </main>
 <footer class="footer wrap">© Tchat Love Premium · Des suggestions pour communiquer avec authenticité et respect.</footer>
-<script>
-// CONFIGURATION KASHPAY :
-// Cette page est une TSL d’upsell. Pour un upsell en un clic, utilisez le
-// script et l’URL acceptUpsell fournis par KashPay (ne pas utiliser
-// un lien de checkout ordinaire comme substitut).
-// En attendant, la page s’affiche normalement sans redirection cassée.
-// À REMPLACER par l'URL HTTPS de votre checkout KashPay lorsque vous l'aurez.
-// Ne placez jamais une clé API ni un jeton secret dans ce fichier HTML.
-const CHECKOUT_URL = '';
-const links = document.querySelectorAll('.checkout-link');
-links.forEach(link => link.addEventListener('click', event => {
-  event.preventDefault();
-  if (CHECKOUT_URL && /^https:\/\//i.test(CHECKOUT_URL)) {
-    window.location.assign(CHECKOUT_URL);
-  } else {
-    document.getElementById('acces').scrollIntoView({behavior:'smooth',block:'center'});
-    document.getElementById('checkout-status').classList.add('show');
-  }
-}));
-</script>
+
 </body>
 </html>
